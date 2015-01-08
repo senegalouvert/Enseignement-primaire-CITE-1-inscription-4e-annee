@@ -1,0 +1,57 @@
+{
+  "title": "Enseignement primaire (CITE 1) inscription 4e année",
+  "name": "enseignement-primaire-cite-1-inscription-4e-annee",
+  "sources": [{
+        "name": "UN Data",
+        "web": "http://data.un.org/Data.aspx?q=senegal&d=UNESCO&f=series%3aE_1_G4%3bref_area%3aSEN"
+    }],
+  "contributors":[ {
+      "name": "Ibrahima SENE",
+      "email": "seneibrahima@gmail.com"
+  }],
+  "licenses": [
+      {
+          "id": "odc-pddl",
+          "name": "Public Domain Dedication and License",
+          "version": "1.0",
+          "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+      }
+  ],
+  "resources": [
+    {
+      "name": "Enseignement_primaire_CITE_1__inscription_4e_annee.csv",
+      "path": "data/Enseignement_primaire_CITE_1__inscription_4e_annee.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 4656,
+      "schema": {
+        "fields": [
+          {
+            "name": "Reference Area",
+            "type": "string"
+          },
+          {
+            "name": "Time Period",
+            "type": "integer"
+          },
+          {
+            "name": "Sex",
+            "type": "string"
+          },
+          {
+            "name": "Age group",
+            "type": "string"
+          },
+          {
+            "name": "Units of measurement",
+            "type": "string"
+          },
+          {
+            "name": "\"Observation Value\"\t\t\t\t\t\t\t",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}
